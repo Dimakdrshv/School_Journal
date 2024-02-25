@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Mini_project"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="Teachers">
+        </activity>
+        <activity android:name="Pass">
+        </activity>
+        <activity android:name="Students">
+        </activity>
+        <activity android:name=".K1">
+        </activity>
+        <activity android:name=".K2">
+        </activity>
+        <activity android:name=".K3">
+        </activity>
+        <activity android:name=".K4">
+        </activity>
+        <activity android:name=".K5">
+        </activity>
+        <activity android:name=".K6">
+        </activity>
+        <activity android:name=".K7">
+        </activity>
+        <activity android:name=".K8">
+        </activity>
+        <activity android:name=".K9">
+        </activity>
+        <activity android:name=".K10">
+        </activity>
+        <activity android:name=".K11">
+        </activity>
+        <activity android:name=".Employee">
+        </activity>
+        <activity android:name=".Elective">
+        </activity>
+        <activity android:name=".Section">
+        </activity>
+        <activity android:name=".MainMenu">
+        </activity>
+        <activity android:name=".Journal">
+        </activity>
+        <activity android:name=".St">
+        </activity>
+    </application>
+
+</manifest>
